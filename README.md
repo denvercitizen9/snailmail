@@ -27,7 +27,7 @@ Now that we have all of the text Fields available we can provide them to ChatGPT
   "tinySummary": "Amount Due: $131.12 | Due: Jan 30",
   "category": "Semi-Important",
   "explanation": "The document is categorized as Semi-Important because it contains a billing statement with the total amount due and due date. It provides financial information requiring attention but does not involve urgent matters or legal documents."
-}```
+}```  
 
 ### Step 4: Send Email Digest of your Physical Mail
 
