@@ -6,7 +6,7 @@ We would work with a 3rd party to redirect your physical mail to a facility that
 In this repo you will see an example of this: `SampleCableBill`
 
 ### Step 2: Use fancy OSS AI-based OCR to view the dark data
-Since this is an Open Source focus we want to use [PaddlePaddle's OCRv3, which you can see live here](https://www.paddlepaddle.org.cn/hub/scene/ocr').  We didn't get as far as hosting this ourselves, but one could imagine how that would happen.  Using the SampleCableBill.pdf, the complete response that we get from PP-OCR is provided in `pp_ocrv3.json`   
+Since this is an Open Source focus we want to use [PaddlePaddle's OCRv3, which you can see live here](https://www.paddlepaddle.org.cn/hub/scene/ocr).  We didn't get as far as hosting this ourselves, but one could imagine how that would happen.  Using the SampleCableBill.pdf, the complete response that we get from PP-OCR is provided in `pp_ocrv3.json`   
 
 Since we can't use that as-is, we simplify it in a way that is more digestable.  The following Powershell code is one example of how to do this:
 ```
